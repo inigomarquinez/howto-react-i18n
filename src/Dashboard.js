@@ -10,12 +10,16 @@ const Dashboard = ({ name, setName, count, decrement, increment }) => (
 
     <p>My name is {name}.</p>
 
-    <p>There are {count} people online!</p>
+    {name.trim().length > 0 && (
+      <>
+        <p>There are {count} people online!</p>
 
-    <div>
-      <button className={styles.decrement} onClick={decrement}>-</button>
-      <button className={styles.increment} onClick={increment}>+</button>
-    </div>
+        <div>
+          <button className={styles.decrement} onClick={decrement}>-</button>
+          <button className={styles.increment} onClick={increment}>+</button>
+        </div>
+      </>
+    )}
   </div>
 );
 

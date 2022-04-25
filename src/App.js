@@ -16,10 +16,10 @@ const App = () => {
 
   const decrement = useCallback(() => {
     if (count === 1) {
-      alert.show('Are you alone? 🥺')
+      alert.show(`Are you alone, ${name}? 🥺`)
     }
     setCount(prev => Math.max(prev - 1, 1));
-  }, [alert, count]);
+  }, [alert, count, name]);
 
   return (
     <div className={styles.root}>
