@@ -2,6 +2,7 @@ import { useCallback, useState } from 'react';
 import { useAlert } from 'react-alert';
 
 import Dashboard from './Dashboard';
+import styles from './App.module.scss';
 
 const App = () => {
   const alert = useAlert();
@@ -21,12 +22,14 @@ const App = () => {
   }, [alert, count]);
 
   return (
-    <Dashboard
-      name={name}
-      setName={setName}
-      count={count}
-      decrement={decrement}
-      increment={increment} />
+    <div className={styles.root}>
+      <Dashboard
+        name={name}
+        setName={setName}
+        count={count}
+        decrement={decrement}
+        increment={increment} />
+    </div>
   );
 };
 

@@ -8,7 +8,7 @@ const Dashboard = ({ name, setName, count, decrement, increment }) => (
       Presenter: <input type="text" onChange={e => setName(e.target.value)}/>
     </div>
 
-    <p>My name is {name}</p>
+    <p>My name is {name}.</p>
 
     <p>There are {count} people online!</p>
 

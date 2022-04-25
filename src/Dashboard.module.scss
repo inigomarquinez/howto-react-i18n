@@ -1,8 +1,10 @@
 .root {
+  align-items: center;
+  border: solid 1px black;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 50px;
 }
 
 %button {
