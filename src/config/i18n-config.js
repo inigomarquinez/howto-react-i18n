@@ -24,12 +24,18 @@ const configurei18n = () => {
             'welcome': 'Welcome to this KS!',
             'presenter': 'Presenter',
             'name': 'My name is {{name}}',
-            "people_one": "There is {{count}} person online!",
-            "people_other": "There are {{count}} people online!"
+            'people_one': 'There is {{count}} person online!',
+            'people_other': 'There are {{count}} people online!'
           }
         },
         es: {
           translation: {
+            'alone': '¿No tienes compañía, {{name}}? 🥺',
+            'welcome': '¡Te doy la bienvenida a esta KS!',
+            'presenter': 'Presentación a cargo de',
+            'name': 'Mi nombre es {{name}}',
+            'people_one': '¡Hay {{count}} persona en línea!',
+            'people_other': '¡Hay {{count}} personas en línea!'
           }
         }
       },
