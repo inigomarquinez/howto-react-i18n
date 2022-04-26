@@ -3,6 +3,7 @@ import { useAlert } from 'react-alert';
 import { useTranslation } from 'react-i18next';
 
 import Dashboard from './Dashboard';
+import LanguageSwitcher from './LanguageSwitcher';
 import styles from './App.module.scss';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
 
   return (
     <div className={styles.root}>
+      <LanguageSwitcher />
       <Dashboard
         name={name}
         setName={setName}
