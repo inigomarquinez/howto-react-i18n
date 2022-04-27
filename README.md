@@ -45,6 +45,8 @@ The tutorial will go through the steps of creating a React app with i18n support
     - load translation using http (`/public/locales/` folder)
     - browser language detection
 
+- `05_namespaces`: Added [namespaces support](https://react.i18next.com/guides/multiple-translation-files) to better organize translation files.
+
 ## Useful links
 
 - [i18next](https://www.i18next.com/): internationalization-framework that provides you with a complete solution to localize your product from web to mobile and desktop.
