@@ -9,6 +9,8 @@ const Dashboard = ({ name, setName, count, decrement, increment }) => {
     <div className={styles.root}>
       <h1>{t('pages:dashboard.welcome')}</h1>
 
+      <h2>{t('pages:dashboard.description')}</h2>
+
       <div>
         {t('pages:dashboard.presenter')}: <input type="text" onChange={e => setName(e.target.value)}/>
       </div>
