@@ -56,6 +56,8 @@ The tutorial will go through the steps of creating a React app with i18n support
 
 - `06_extraction-tool`: Added [i18next-parser](https://github.com/i18next/i18next-parser) to extract translation strings from source code.
 
+- `07_translations-ui`: Added [translation-check](https://github.com/locize/translation-check) to show a UI with the translation strings.
+
 ## Useful links
 
 - [i18next](https://www.i18next.com/): internationalization-framework that provides you with a complete solution to localize your product from web to mobile and desktop.

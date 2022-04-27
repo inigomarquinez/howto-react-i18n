@@ -21,7 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "i18next-parser": "^6.3.0"
+    "i18next-parser": "^6.3.0",
+    "translation-check": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import iso6391 from 'iso-639-1';
+import { showTranslations } from 'translation-check';
 
 import { susupportedLngs } from './config';
 import styles from './LanguageSwitcher.module.scss';
@@ -42,6 +43,9 @@ const LanguageSwitcher = () => {
           {iso6391.getNativeName(language.code)}
         </button>
       ))}
+      {process.env.NODE_ENV === 'development' && (
+          <button onClick={() => showTranslations(i18n)}>🌐</button>
+      )}
     </div>
   )
 };
