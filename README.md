@@ -31,6 +31,13 @@ npm test
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+```bash
+npm run i18n
+```
+
+Launches i18next-parser to scan the code and extract the translations.\
+It reads the configuration from the `i18next-parser.config.js` file.
+
 ## Tutorial (branches)
 
 The tutorial will go through the steps of creating a React app with i18n support, and the progress will be saved in different branches:
