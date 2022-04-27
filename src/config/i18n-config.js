@@ -3,8 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-const susupportedLngs = ['en', 'es'];
-const namespaces = ['pages', 'alert'];
+import { susupportedLngs, i18nNamespaces } from './enums';
 
 const configurei18n = () => {
   i18n
@@ -26,13 +25,10 @@ const configurei18n = () => {
       interpolation: {
         escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
       },
-      ns: namespaces,
-      defaultNS: namespaces[0],
-      fallbackNS: namespaces[0]
+      ns: i18nNamespaces,
+      defaultNS: i18nNamespaces[0],
+      fallbackNS: i18nNamespaces[0]
     });
 };
 
-export {
-  susupportedLngs,
-  configurei18n
-};
+export default configurei18n;

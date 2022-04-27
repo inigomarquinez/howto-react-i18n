@@ -20,11 +20,15 @@
     "sass": "^1.50.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "i18next-parser": "^6.3.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "i18n": "node_modules/.bin/i18next 'src/**/*.{js,jsx}'"
   },
   "eslintConfig": {
     "extends": [

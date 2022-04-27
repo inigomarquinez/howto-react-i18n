@@ -1,9 +1,10 @@
 {
   "dashboard": {
-    "welcome": "¡Te doy la bienvenida a esta KS!",
-    "presenter": "Presentación a cargo de",
     "name": "Mi nombre es {{name}}",
     "people_one": "¡Hay {{count}} persona en línea!",
-    "people_other": "¡Hay {{count}} personas en línea!"
+    "people_many": "__STRING_NOT_TRANSLATED__",
+    "people_other": "¡Hay {{count}} personas en línea!",
+    "presenter": "Presentación a cargo de",
+    "welcome": "¡Te doy la bienvenida a esta KS!"
   }
 }
