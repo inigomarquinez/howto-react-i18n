@@ -27,7 +27,8 @@ const configurei18n = () => {
       },
       ns: i18nNamespaces,
       defaultNS: i18nNamespaces[0],
-      fallbackNS: i18nNamespaces[0]
+      fallbackNS: i18nNamespaces[0],
+      saveMissing: true // runtime extraction => https://www.i18next.com/how-to/extracting-translations#3-runtime-extraction
     });
 };
 
