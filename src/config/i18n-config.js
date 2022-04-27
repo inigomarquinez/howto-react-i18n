@@ -4,6 +4,7 @@ import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 const susupportedLngs = ['en', 'es'];
+const namespaces = ['pages', 'alert'];
 
 const configurei18n = () => {
   i18n
@@ -24,7 +25,10 @@ const configurei18n = () => {
       fallbackLng: susupportedLngs[0],
       interpolation: {
         escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape
-      }
+      },
+      ns: namespaces,
+      defaultNS: namespaces[0],
+      fallbackNS: namespaces[0]
     });
 };
 

@@ -19,7 +19,7 @@ const App = () => {
 
   const decrement = useCallback(() => {
     if (count === 1) {
-      alert.show(t('alone', { name }));
+      alert.show(t('alert:alone', { name }));
     }
     setCount(prev => Math.max(prev - 1, 1));
   }, [alert, count, name, t]);

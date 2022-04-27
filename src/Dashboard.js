@@ -7,17 +7,17 @@ const Dashboard = ({ name, setName, count, decrement, increment }) => {
 
   return (
     <div className={styles.root}>
-      <h1>{t('welcome')}</h1>
+      <h1>{t('pages:dashboard.welcome')}</h1>
 
       <div>
-        {t('presenter')}: <input type="text" onChange={e => setName(e.target.value)}/>
+        {t('pages:dashboard.presenter')}: <input type="text" onChange={e => setName(e.target.value)}/>
       </div>
 
-      <p>{t('name', { name })}</p>
+      <p>{t('pages:dashboard.name', { name })}</p>
 
       {name.trim().length > 0 && (
         <>
-          <p>{t('people', { count })}</p>
+          <p>{t('pages:dashboard.people', { count })}</p>
 
           <div>
             <button className={styles.decrement} onClick={decrement}>-</button>
