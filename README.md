@@ -62,6 +62,12 @@ The tutorial will go through the steps of creating a React app with i18n support
 
 - [i18next](https://www.i18next.com/): internationalization-framework that provides you with a complete solution to localize your product from web to mobile and desktop.
 
+    - [Supported frameworks](https://www.i18next.com/overview/supported-frameworks)
+
+    - [Plugins and utils](https://www.i18next.com/overview/plugins-and-utils)
+
 - [react-i18next](https://react.i18next.com/): powerful internationalization framework for React / React Native which is based on i18next.
 
 - [Flags are not languages](http://www.flagsarenotlanguages.com/blog/): a blog about designing global user experiences: beyond language, location & culture.
+
+- [How to properly internationalize a React application using i18next](https://dev.to/adrai/how-to-properly-internationalize-a-react-application-using-i18next-3hdb): interesting step by step article about how to internationalize a React application using i18next.
