@@ -1,0 +1,8 @@
+{
+  "alone": "Are you alone, {{name}}? 🥺",
+  "welcome": "Welcome to this KS!",
+  "presenter": "Presenter",
+  "name": "My name is {{name}}",
+  "people_one": "There is {{count}} person online!",
+  "people_other": "There are {{count}} people online!"
+}

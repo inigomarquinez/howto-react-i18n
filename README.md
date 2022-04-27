@@ -41,6 +41,10 @@ The tutorial will go through the steps of creating a React app with i18n support
 
 - `03_language-switcher`: Added language switcher and support for both Spanish and English languages to react app.
 
+- `04_advanced-features`: Added advanced features such as:
+    - load translation using http (`/public/locales/` folder)
+    - browser language detection
+
 ## Useful links
 
 - [i18next](https://www.i18next.com/): internationalization-framework that provides you with a complete solution to localize your product from web to mobile and desktop.
