@@ -5,7 +5,12 @@ import AlertTemplate from 'react-alert-template-basic'
 
 import './index.css';
 import App from './App';
-import { alertConfig } from './config';
+import {
+  alertConfig,
+  configurei18n
+}from './config';
+
+configurei18n();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
