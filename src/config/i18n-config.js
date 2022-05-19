@@ -30,8 +30,8 @@ const configurei18n = () => {
       fallbackNS: i18nNamespaces[0],
       // saveMissing: true, // runtime extraction => https://www.i18next.com/how-to/extracting-translations#3-runtime-extraction,
       backend: {
-        // loadPath: process.env.REACT_APP_I18NEXUS_LOAD_PATH
-        loadPath: process.env.REACT_APP_I18NEXUS_LOAD_PATH_VERSIONED
+        loadPath: process.env.REACT_APP_I18NEXUS_LOAD_PATH
+        // loadPath: process.env.REACT_APP_I18NEXUS_LOAD_PATH_VERSIONED
       }
     });
 };
