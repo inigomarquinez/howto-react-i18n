@@ -1,8 +1,36 @@
-# Getting Started with Create React App
+# 🤔 HOW TO - React app internationalization (i18n)
+
+POC that explains how to use some useful frameworks for doing the internationalization of a React app.
+
+## Tutorial (branches)
+
+The tutorial will go through the steps of creating a React app with i18n support, and the progress will be saved in different branches:
+
+- `01_basic-react-app`: Basic react app without internationalization (i18n) support.
+
+- `02_i18n-support`: Added i18n support to react app using [react-i18next](https://react.i18next.com/).
+
+- `03_language-switcher`: Added language switcher and support for both Spanish and English languages to react app.
+
+- `04_advanced-features`: Added advanced features such as:
+    - load translation using http (`/public/locales/` folder)
+    - browser language detection
+
+- `05_namespaces`: Added [namespaces support](https://react.i18next.com/guides/multiple-translation-files) to better organize translation files.
+
+- `06_extraction-tool`: Added [i18next-parser](https://github.com/i18next/i18next-parser) to extract translation strings from source code.
+
+- `07_translations-ui`: Added [translation-check](https://github.com/locize/translation-check) to show a UI with the translation strings.
+
+- `08_i18nexus`: Added [i18nexus](https://i18nexus.com/) as an external service to manage translation strings.
+    - [React tutorial](https://i18nexus.com/react-tutorial/)
+    - [API](https://i18nexus.com/quick-integration/)
+
+## How to run the app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Installation
+### Installation
 
 First you need to install the dependencies. As there are some libraries that do not meet peer dependencies restrictions, you need to install the dependencies with the `--force` flag:
 
@@ -10,7 +38,7 @@ First you need to install the dependencies. As there are some libraries that do 
 npm i --force
 ```
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -37,30 +65,6 @@ npm run i18n
 
 Launches i18next-parser to scan the code and extract the translations.\
 It reads the configuration from the `i18next-parser.config.js` file.
-
-## Tutorial (branches)
-
-The tutorial will go through the steps of creating a React app with i18n support, and the progress will be saved in different branches:
-
-- `01_basic-react-app`: Basic react app without internationalization (i18n) support.
-
-- `02_i18n-support`: Added i18n support to react app using [react-i18next](https://react.i18next.com/).
-
-- `03_language-switcher`: Added language switcher and support for both Spanish and English languages to react app.
-
-- `04_advanced-features`: Added advanced features such as:
-    - load translation using http (`/public/locales/` folder)
-    - browser language detection
-
-- `05_namespaces`: Added [namespaces support](https://react.i18next.com/guides/multiple-translation-files) to better organize translation files.
-
-- `06_extraction-tool`: Added [i18next-parser](https://github.com/i18next/i18next-parser) to extract translation strings from source code.
-
-- `07_translations-ui`: Added [translation-check](https://github.com/locize/translation-check) to show a UI with the translation strings.
-
-- `08_i18nexus`: Added [i18nexus](https://i18nexus.com/) as an external service to manage translation strings.
-    - [React tutorial](https://i18nexus.com/react-tutorial/)
-    - [API](https://i18nexus.com/quick-integration/)
 
 ## Useful links
 
